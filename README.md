@@ -17,17 +17,25 @@ test_number=ваш_номер телефона
 ## Запуск тестов
 
 ### Все тесты:
+```bash
 pytest
+```
 
 ### Только UI-тесты:
+```bash
 pytest -m ui
+```
 
 ### Только API-тесты:
+```bash
 pytest -m api
+```
 
 ### Генерация отчета:
+```bash
 pytest --alluredir=allure-results
 allure serve allure-results
+```
 
 ## Ссылки
 Финальная работа по ручному тестированию: https://homework-skypro.yonote.ru/share/a4a3711e-9676-445d-841a-d797d2dd9114
