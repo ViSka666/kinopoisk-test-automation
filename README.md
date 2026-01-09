@@ -4,9 +4,11 @@
 
 ## Установка
 
+```bash
 git clone https://github.com/VISKa666/kinopoisk-test-automation.git
 cd kinopoisk-test-automation
 pip install -r requirements.txt
+```
 
 ## Настройка
 Создайте файл .env в корне:
