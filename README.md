@@ -2,21 +2,6 @@
 
 Проект содержит 5 UI и 5 API автотестов для веб-приложения Кинопоиск.
 
-## Настройка
-Создайте файл .env в корне:
-
-```text
-x_api_key = ваш_апи_ключ
-```
-
-## Установка
-
-```bash
-git clone https://github.com/VISKa666/kinopoisk-test-automation.git
-cd kinopoisk-test-automation
-pip install -r requirements.txt
-```
-
 ## Особенности проекта
 
 ### Авторизация через QR-код
@@ -49,6 +34,21 @@ pip install -r requirements.txt
 - Камера на телефоне с функцией сканирования qr-кодов или Мобильное приложение Яндекс Браузер
 - 30–60 секунд на ручное сканирование QR-кода при первом запуске
 - Активная подписка Яндекс Плюс
+
+## Установка
+
+```bash
+git clone https://github.com/VISKa666/kinopoisk-test-automation.git
+cd kinopoisk-test-automation
+pip install -r requirements.txt
+```
+
+## Настройка
+Создайте файл .env в корне:
+
+```text
+x_api_key = ваш_апи_ключ
+```
 
 ## Запуск тестов
 
